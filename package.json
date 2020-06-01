@@ -1,36 +1,22 @@
 {
   "name": "phaser3-typescript",
   "version": "1.3.0",
-  "description": "Boilerplate, Game Examples, Cheat Sheets and Tutorials for Phaser 3 in TypeScript",
-  "keywords": [
-    "Phaser",
-    "Phaser 3",
-    "Phaser3",
-    "Html5-game",
-    "Phaser-boilerplate",
-    "TypeScript",
-    "Webpack",
-    "Tutorials",
-    "Phaser-tutorial",
-    "Game Examples",
-    "Phaser-game",
-    "Phaser-framework",
-    "Phaser3-example"
-  ],
+  "description": "Phaser3 game for Gamejam 2020",
+  "keywords": [],
   "devDependencies": {
     "expose-loader": "0.7.5",
     "ts-loader": "6.0.4",
     "typescript": "3.5.2",
     "webpack": "4.35.2",
     "webpack-cli": "3.3.5",
-    "webpack-dev-server": "3.7.2"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "phaser": "3.20.1"
   },
   "scripts": {
-    "start-boilerplate": "cd src/boilerplate && yarn install && yarn run dev",
-    "build-boilerplate": "cd src/boilerplate && yarn install && yarn run build",
+    "install-gamejam": "cd src/gamejam && yarn install",
+    "build-gamejam": "cd src/gamejam && yarn install && yarn run build",
     "dev": "webpack --mode development && webpack-dev-server --mode development",
     "build": "webpack --mode production && webpack-dev-server --mode production",
     "candy-crush": "cd src/games/candy-crush && yarn install && yarn run dev",
@@ -44,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digitsensitive/phaser3-typescript.git"
+    "url": "git+https://github.com/ctaylo21/gamejame2020.git"
   },
   "author": {
     "name": "digitsensitive",
@@ -52,7 +38,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/digitsensitive/phaser3-typescript/issues"
+    "url": "https://github.com/ctaylo21/gamejame2020/issues"
   },
-  "homepage": "https://github.com/digitsensitive/phaser3-typescript#readme"
+  "homepage": "https://github.com/ctaylo21/gamejame2020#readme"
 }

@@ -4,6 +4,13 @@
     "module": "commonjs",
     "sourceMap": true,
     "noImplicitAny": false,
-    "strict": false
+    "strict": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/phaser/types"
+    ],
+    "types": [
+      "Phaser"
+    ]
   }
 }

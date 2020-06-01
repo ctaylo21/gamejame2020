@@ -1,21 +1,6 @@
 <p align="center">
-  <img width=60% src="assets/github/phaser3-typescript.png">
+  Phaser 3 Game for GameJam 2020
 </p>
-
-<p align="center">
-  Phaser 3 Game Examples written in TypeScript.
-</p>
-
-<div align="center">
-
-  ![Dependencies](https://img.shields.io/david/digitsensitive/phaser3-typescript.svg)
-  ![GitHub issues](https://img.shields.io/github/issues/digitsensitive/phaser3-typescript.svg)
-  ![GitHub stars](https://img.shields.io/github/stars/digitsensitive/phaser3-typescript.svg)
-  ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-  ![Code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-  ![GitHub licence](https://img.shields.io/github/license/digitsensitive/phaser3-typescript.svg)
-
-</div>
 
 <p align="center">
   <sub>
@@ -23,20 +8,6 @@
     Framework created by <a href="https://github.com/photonstorm">Photonstorm</a>
   </sub>
 </p>
-
-# Phaser 3 and TypeScript
-
-[Phaser](https://github.com/photonstorm/phaser) is a wonderful, fast and
-free open source HTML5 game framework.
-Here you will find everything you need to develop games with Phaser 3
-in TypeScript. Have fun discovering, developing and playing!
-Ideas and corrections are highly desirable to constantly
-improve this repository!
-
-<div align="center">
-<a href="https://www.buymeacoffee.com/JZDVjsT26" target="blank">
-<img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important; width: auto !important;"></a>
-</div>
 
 ## Getting started
 
@@ -63,11 +34,20 @@ npm install
 
 ### Building and Running
 
-Perform a quick build (bundle.js) and start server:
+To start coding your game, you should first install all of the depenencies (you can skip this step if you have already installed depedencies).
 
+```
+npm run install-gamejam
+```
+
+Now to get the game running locally, just run the following command:
 ```
 npm run dev
 ```
+
+This will run the game located at `./src/gamejam/`. You should be able to edit your game files located in the `./src/gamejam/` folder and see the changes on the dev server (http://127.0.0.1:8080/) after you save your changes.
+
+**You should primarily only be editing files located in the `./src/gamejam` folder**.
 
 ## Game Examples
 
@@ -147,21 +127,6 @@ The following `Compiler Options` have been set in the `tsconfig.json` file:
 
 You can see the complete list of the available options at [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 Interesting read about [setting up a nodejs-project](https://codeburst.io/tips-for-setting-up-a-typescript-nodejs-project-5d1c48dc1a2d).
-
-## Changelog
-
-[Learn about the latest improvements](https://github.com/digitsensitive/phaser3-typescript/blob/master/CHANGELOG.md)
-
-## Contributing
-
-Want to correct a bug, contribute some code, or improve the codes? Excellent! Let me know!
-Please read [CONTRIBUTING.md](https://github.com/digitsensitive/phaser3-typescript/blob/master/CONTRIBUTING.md) for details on our code of conduct.
-
-I would like to thank the following persons for their support and help:
-[@FakeBarenziah](https://github.com/FakeBarenziah)
-[@emedws](https://github.com/emedws)
-[@evanlanglais](https://github.com/evanlanglais)
-[@iliyaZelenko](https://github.com/iliyaZelenko)
 
 ## License
 

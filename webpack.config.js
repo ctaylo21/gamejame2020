@@ -3,9 +3,9 @@ var pathToPhaser = path.join(__dirname, "/node_modules/phaser/");
 var phaser = path.join(pathToPhaser, "dist/phaser.js");
 
 module.exports = {
-  entry: "./src/boilerplate/game.ts",
+  entry: "./src/gamejam/game.ts",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname + '/src/gamejam', "dist"),
     filename: "bundle.js"
   },
   module: {
@@ -15,7 +15,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "./"),
+    contentBase: path.resolve(__dirname + '/src/gamejam/', "./"),
     publicPath: "/dist/",
     host: "127.0.0.1",
     port: 8080,
