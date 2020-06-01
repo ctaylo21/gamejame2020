@@ -23,16 +23,19 @@ Select a folder, navigate to it, and clone this repository
 with this command-line:
 
 ```
-git clone https://github.com/digitsensitive/phaser3-typescript.git
+git clone https://github.com/ctaylo21/gamejame2020
 ```
 
 Install the dependencies with this command-line:
 
 ```
+cd gamejame2020
 npm install
 ```
 
 ### Building and Running
+
+*Note: All of these steps should be run from the root level of your `gamejam2020` folder*
 
 To start coding your game, you should first install all of the depenencies (you can skip this step if you have already installed depedencies).
 
